@@ -28,8 +28,8 @@ steps:
   - |
     gcloud deploy apply --file deploy/pipeline.yaml --region=europe-west2
     gcloud deploy apply --file deploy/dev.yaml --region=europe-west2
-    gcloud deploy releases create 'app1-release-${SHORT_SHA}-${TS}' --delivery-pipeline=gke-cicd-pipeline --region=europe-west2 --skaffold-file=skaffold.yaml
-    gcloud deploy releases create 'app2-release-${SHORT_SHA}-${TS}' --delivery-pipeline=gke-cicd-pipeline --region=europe-west2 --skaffold-file=skaffold.yaml
+    gcloud deploy releases create 'app1-release-${SHORT_SHA}' --delivery-pipeline=gke-cicd-pipeline --region=europe-west2 --skaffold-file=skaffold.yaml
+    gcloud deploy releases create 'app2-release-${SHORT_SHA}' --delivery-pipeline=gke-cicd-pipeline --region=europe-west2 --skaffold-file=skaffold.yaml
 
 
 options:
