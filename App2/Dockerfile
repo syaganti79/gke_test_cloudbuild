@@ -1,7 +1,7 @@
 FROM python:3.8
 
 EXPOSE 8081
-WORKDIR /app2
+WORKDIR /App2
 
 COPY . ./
 
