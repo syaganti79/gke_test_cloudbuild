@@ -6,4 +6,4 @@ metadata:
   labels: {}
 description: dev
 gke:
-  cluster: projects/project-1-509015/locations/europe-west2-a/clusters/gke-1
+  cluster: projects/project-1-509015/locations/europe-west2-c/clusters/gke-1
